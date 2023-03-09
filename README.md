@@ -9,7 +9,7 @@ The code and dataset will be available upon acceptance of the paper.
 
 ### Applications
 
-Style transfer, which transfers local styles from an example image to regions of the input image with the same semantics:
+Style transfer, which transfers local styles from an exemplar image to regions of the input image with the same semantics:
 
 <img src="./imgs/style_transfer_1_input.jpg" width="220"/><img src="./imgs/blank.jpg" width="20"/><img src="./imgs/style_transfer_1_output.jpg" width="110"/><img src="./imgs/blank.jpg" width="30"/><img src="./imgs/style_transfer_2_input.jpg" width="220"/><img src="./imgs/blank.jpg" width="20"/><img src="./imgs/style_transfer_2_output.jpg" width="110"/>
 
