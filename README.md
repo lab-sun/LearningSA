@@ -4,9 +4,9 @@ The official implementation of LearningSA: Learning Semantic Alignment using Glo
 
 The code and dataset will be available upon acceptance of the paper.
 
-## Samples of the CroDom Dataset
+### Samples of the CroDom Dataset
 
 
-## Applications
+### Applications
 
 
