@@ -9,4 +9,6 @@ The code and dataset will be available upon acceptance of the paper.
 
 ### Applications
 
+<center class="half">
+   <img src="./imgs/image_morphing_2.gif" width="100"/> </center>
 
