@@ -69,14 +69,14 @@ python image_willow.py
 ```
 
 
-#### Visualize the predicted result.
+#### Visualize the predicted result
 
 ```shell
 python image.py --vis
 ```
 
 ### Checkpoints
-Download checkpoints and save them the folder weights:
+Download checkpoints and save them to the folder weights:
 | Config                                                                    | PCK(0.05)       |PCK(0.10)       | Model                                                                                         |
 | ------------------------------------------------------------------------- | ---------- | ---------- | ---------------------------------------------------------------------------------------------- | 
 | best_checkpoint_pascal                                | 81.4  | 93.4     | [gdrive](https://drive.google.com/file/d/1v3-rd5ooui8ZPFZUUV1wfhB2o-V1IORX/view?usp=drive_link) | 
