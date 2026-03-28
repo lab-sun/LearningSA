@@ -6,7 +6,6 @@
 > LearningSA: Learning Semantic Alignment using Global Features and Multi-scale Confidence  
 > Huaiyuan Xu, Jing Liao, Huaping Liu, and Yuxiang Sun*
 
-
 ## Introduction
 Semantic alignment aims to establish pixel correspondences between images based on semantic consistency. It can serve as a fundamental component for various downstream computer vision tasks, such as style transfer and exemplar-based colorization, etc. Many existing methods use local features and their cosine similarities to infer semantic alignment. However, they struggle with significant intra-class variation of objects, such as appearance, size, etc. In other words, contents with the same semantics tend to be significantly different in vision. To address this issue, we propose a novel deep neural network of which the core lies in global feature enhancement and adaptive multi-scale inference. Specifically, two modules are proposed: an enhancement transformer for enhancing semantic features with global awareness; a probabilistic correlation module for adaptively fusing multi-scale information based on the learned confidence scores. We use the unified network architecture to achieve two types of semantic alignment, namely, cross-object semantic alignment and cross-domain semantic alignment. Experimental results demonstrate that our method achieves competitive performance on five standard cross-object semantic alignment benchmarks, and outperforms the state of the arts in cross-domain semantic alignment.
 
@@ -68,7 +67,6 @@ python image.py
 python image_willow.py
 ```
 
-
 #### Visualize the predicted result
 
 ```shell
@@ -83,7 +81,6 @@ Download checkpoints and save them to the folder weights:
 | best_checkpoint_willow                  | 55.6   | 80.4  | [gdrive](https://drive.google.com/file/d/1a9Mee3cjjiRM4s3zcva_ZQggHJMqngI4/view?usp=drive_link) | 
 
 
-
 ### Applications
 
 Style transfer, which transfers local styles from an exemplar image to regions of the input image with the same semantics:
@@ -95,24 +92,19 @@ Semantic alignment-based image morphing:
 
 <img src="./imgs/vis_matching_2.jpg" width="220"/><img src="./imgs/blank.jpg" width="20"/><img src="./imgs/image_morphing_2.gif" width="110"/><img src="./imgs/blank.jpg" width="30"/><img src="./imgs/vis_matching_1.jpg" width="220"/><img src="./imgs/blank.jpg" width="20"/> <img src="./imgs/image_morphing_1.gif" width="110"/>
 
-
 </center>
 
-
-
 ## Bibtex
-
 If this work is helpful for your research, please consider citing the following BibTeX entries.
 
 ```
-@ARTICLE{10159138,
-  author={Xu, Huaiyuan and Liao, Jing and Liu, Huaping and Sun, Yuxiang},
+@ARTICLE{xu2024learning,
+  author={Huaiyuan Xu and Jing Liao and Huaping Liu and Yuxiang Sun},
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
-  title={Learning Semantic Alignment using Global Features and Multi-scale Confidence}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-1},
+  title={Learning Semantic Alignment Using Global Features and Multi-Scale Confidence}, 
+  year={2024},
+  volume={34},
+  number={2},
+  pages={897-910},
   doi={10.1109/TCSVT.2023.3288370}}
-
 ```
